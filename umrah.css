@@ -1,0 +1,205 @@
+body {
+    font-family: Roboto;
+    margin: 0;
+    background-color: white;
+    font-size: 22px;
+    text-align: center;
+    font-family: "Lexend Mega";
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 20px 10%;
+}
+
+header nav ul {
+    
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 15px 30px;
+    -webkit-transition: text-decoration, color, font-size, 0.5s;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: blue;
+    font-size: 23px;
+    transition: text-decoration, color, font-size, 0.5s;
+}
+
+h1, h2, h3, h4, h5, h6, a, p {
+    margin: 0;
+    padding: 10px;
+    line-height: 2;
+}
+
+.main1 {
+    background-image: url(img-umrah/tawaf-pic.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    padding: 75px 0px;
+    margin-top: 40px;
+}
+
+#mission h1, p {
+    background-color: wheat;
+    opacity: 0.9;
+}
+
+#mission p {
+    text-align: justify;
+    padding: 20px 50px 50px 50px;
+}
+
+
+#main2 {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.main2 p {
+    background-color: white;
+}
+
+.trips {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.pictures {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.pictures img {
+    width: 250px;
+    height: 200px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pictures caption {
+    text-align: center;
+    padding-left: 30px;
+    height: auto;
+}
+
+
+.main3 {
+    margin-top: 50px;
+}
+
+.team-pics {
+    background-image: url(img-umrah/haram.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.member {
+    padding: 10px;
+    color: darkred;
+    background-color: beige;
+    border-radius: 15px;
+    opacity: 0.8;
+    flex-basis: 280px;
+    align-items: center;
+    margin: 150px 0px;
+}
+
+.member {
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.member caption {
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+footer h1 {
+    padding-bottom: 30px;
+}
+
+footer p {
+    background-color: white;
+}
+
+footer .last {
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
